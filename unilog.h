@@ -9,6 +9,10 @@
 #ifndef genlog_h
 #define genlog_h
 
+#ifndef GLOBAL_LOG_LEVEL
+#define GLOBAL_LOG_LEVEL DEBUG_2
+#endif
+
 #ifndef LOG_LEVEL
 #define LOG_LEVEL
 enum LogLevel
